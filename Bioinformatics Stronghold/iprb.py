@@ -2,7 +2,7 @@
 """
 Created on Tue Jun 15 01:38:52 2021
 @author: dillonchewwx
-Solution to hamm on rosalind.info
+Solution to iprb on rosalind.info
 """
 
 def main():
@@ -14,12 +14,10 @@ def main():
     file.close()
     print(mendelFirstLaw(k, m, n))    
     
-# There are 4 different cases in this scenario =============================================================================
-# Two homozygous dominant mating will always result in dominant phenotype. Likewise, two homozygous recessive mating will always result in a recessive phenotype. 
-# When heterozygous mates with a homozygous dominant, it always results in a dominant phenotype. 
-# However, when a heterozygous mates with a homozygous recessive, there is a 1/4 probablity that it will result in a dominant phenotype, and a 3/4 probabilty that it will result in a recessive phenotype.
-# When two heterozygous mates, there is a 3/4 probability of the offspring possessing a dominant phenotype, and a 1/4 probability of posessing a recessive phenotype.  
-# We calculate the probability of getting a recessive, then take the complement to get the probability of getting a dominant.  =============================================================================
+# We consider the cases where we will get the recessive phenotype, then take the complement to get the dominant phenotype. =============================================================================
+# If two homozygous recessive mates (aa x aa), the probability of getting a recessive offspring is 1. 
+# If a heterozygous mates with a homozygous recessive (Aa x aa), the probablity of getting a recessive offspring is 1/2. 
+# If two heterozygous mates (Aa x Aa), the probability of getting a recessive offspring is 1/4.  =============================================================================
 
 def mendelFirstLaw(k, m, n):
     total = k+m+n
