@@ -6,7 +6,7 @@ Solution to gc on rosalind.info
 """
 
 def main():
-    file = open("rosalind_gc.txt")
+    file = open("Data/rosalind_gc.txt")
     dict = {}
     for line in file:
         line = line.rstrip()

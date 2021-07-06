@@ -6,7 +6,7 @@ Solution to rna on rosalind.info
 """
 
 def main():
-    file = open("rosalind_rna.txt")
+    file = open("Data/rosalind_rna.txt")
     DNAstring = file.read()
     print(DNAtoRNA(DNAstring))
 

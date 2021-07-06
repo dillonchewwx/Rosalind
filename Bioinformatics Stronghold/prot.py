@@ -6,7 +6,7 @@ Solution to prot on rosalind.info
 """
 
 def main():
-    file = open("rosalind_prot.txt")
+    file = open("Data/rosalind_prot.txt")
     RNAstring = file.read()
     file.close()
     print(translation(RNAstring))

@@ -6,7 +6,7 @@ Solution to revc on rosalind.info
 """
 
 def main():
-    file = open("rosalind_revc.txt")
+    file = open("Data/rosalind_revc.txt")
     DNAstring = file.read()
     print(reverseComplement(DNAstring))
 

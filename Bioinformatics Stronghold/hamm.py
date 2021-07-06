@@ -6,7 +6,7 @@ Solution to hamm on rosalind.info
 """
 
 def main():
-    file = open("rosalind_hamm.txt")
+    file = open("Data/rosalind_hamm.txt")
     lines = file.readlines()
     s = lines[0]
     t = lines[1]

@@ -5,8 +5,8 @@ Created on Mon Jul  5 10:56:28 2021
 Solution to grph on rosalind.info
 """
 def main():
-    sequences = readFasta("rosalind_grph.txt")
-    output = open("rosalind_grph_out.txt", 'w')
+    sequences = readFasta("Data/rosalind_grph.txt")
+    output = open("Data/rosalind_grph_out.txt", 'w')
     for pair in adjacency_list(sequences, 3):
         output.write(" ".join([str(item) for item in pair]) + '\n')
     output.truncate(output.tell()-2) # remove trailing newline

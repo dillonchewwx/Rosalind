@@ -6,7 +6,7 @@ Solution to subs on rosalind.info
 """
 
 def main():
-    file = open("rosalind_subs.txt")
+    file = open("Data/rosalind_subs.txt")
     lines = file.read().splitlines()
     s = lines[0]
     t = lines[1]

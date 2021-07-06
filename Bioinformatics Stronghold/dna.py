@@ -6,7 +6,7 @@ Solution to dna on rosalind.info
 """
 
 def main():
-    file = open("rosalind_dna.txt")
+    file = open("Data/rosalind_dna.txt")
     DNAstring = file.read()
     print(countBases(DNAstring))
 

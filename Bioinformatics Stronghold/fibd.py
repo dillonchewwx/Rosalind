@@ -6,7 +6,7 @@ Solution to fibd on rosalind.info
 """
 
 def main():
-    file = open("rosalind_fibd.txt")
+    file = open("Data/rosalind_fibd.txt")
     numbers = file.read().split(' ')
     n = int(numbers[0])
     m = int(numbers[1])

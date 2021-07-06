@@ -5,8 +5,8 @@ Created on Sun Jun 20 17:25:07 2021
 Solution to cons on rosalind.info
 """
 def main():
-    seqs = readFasta("rosalind_cons.txt")
-    output = open("rosalind_cons.txt", 'w')
+    seqs = readFasta("Data/rosalind_cons.txt")
+    output = open("Data/rosalind_cons.txt", 'w')
     result = consensus(seqs.values())
     output.write("".join([str(item) for item in result[0]]) + "\n")
     output.write("A: " + " ".join([str(item) for item in result[1][0]]) + "\n")

@@ -6,7 +6,7 @@ Solution to iprb on rosalind.info
 """
 
 def main():
-    file = open("rosalind_iprb.txt")
+    file = open("Data/rosalind_iprb.txt")
     numbers = file.read().split(' ')
     k = int(numbers[0])
     m = int(numbers[1])

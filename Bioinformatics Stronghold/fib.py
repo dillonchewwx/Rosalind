@@ -6,7 +6,7 @@ Solution to fib on rosalind.info
 """
 
 def main():
-    file = open("rosalind_fib.txt")
+    file = open("Data/rosalind_fib.txt")
     numbers = file.read().split(' ')
     n = int(numbers[0])
     k = int(numbers[1])
