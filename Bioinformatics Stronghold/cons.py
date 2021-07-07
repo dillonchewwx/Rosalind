@@ -6,7 +6,7 @@ Solution to cons on rosalind.info
 """
 def main():
     seqs = readFasta("Data/rosalind_cons.txt")
-    output = open("Data/rosalind_cons.txt", 'w')
+    output = open("Data/rosalind_cons_out.txt", 'w')
     result = consensus(seqs.values())
     output.write("".join([str(item) for item in result[0]]) + "\n")
     output.write("A: " + " ".join([str(item) for item in result[1][0]]) + "\n")

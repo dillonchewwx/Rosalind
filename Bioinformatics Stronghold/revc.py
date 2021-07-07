@@ -4,7 +4,6 @@ Created on Sun Jun 13 22:48:55 2021
 @author: dillonchewwx
 Solution to revc on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_revc.txt")
     DNAstring = file.read()

@@ -4,7 +4,6 @@ Created on Tue Jun 15 01:38:52 2021
 @author: dillonchewwx
 Solution to iprb on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_iprb.txt")
     numbers = file.read().split(' ')

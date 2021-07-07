@@ -4,7 +4,6 @@ Created on Tue Jun 15 23:43:57 2021
 @author: dillonchewwx
 Solution to prot on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_prot.txt")
     RNAstring = file.read()

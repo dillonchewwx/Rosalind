@@ -4,7 +4,6 @@ Created on Sun Jun 13 23:50:42 2021
 @author: dillonchewwx
 Solution to gc on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_gc.txt")
     dict = {}

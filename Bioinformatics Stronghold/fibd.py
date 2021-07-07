@@ -4,7 +4,6 @@ Created on Mon Jul  5 01:30:04 2021
 @author: dillonchewwx
 Solution to fibd on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_fibd.txt")
     numbers = file.read().split(' ')

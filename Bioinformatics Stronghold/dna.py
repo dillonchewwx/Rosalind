@@ -4,7 +4,6 @@ Created on Sun Jun 13 22:37:24 2021
 @author: dillonchewwx
 Solution to dna on rosalind.info
 """
-
 def main():
     file = open("Data/rosalind_dna.txt")
     DNAstring = file.read()
