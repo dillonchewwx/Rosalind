@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug  9 22:40:36 2021
+Created on Sun Feb 27 22:40:36 2022
 @author: dillonchewwx
 Solution to corr on rosalind.info
 """
